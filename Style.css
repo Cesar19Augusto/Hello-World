@@ -1,17 +1,19 @@
-
 body {
     background-color: yellow;
-
 }
-.logo {
+
+.Logo {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-}/*
-#Logo img {
-    width: 105px;
-    margin: 506px 1040px 0px;
 }
-*/
+
+.Logo p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
